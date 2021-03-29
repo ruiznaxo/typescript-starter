@@ -1,3 +1,5 @@
-export default interface TokenPayload {
+interface TokenPayload {
   userId: number;
 }
+
+export default TokenPayload;
